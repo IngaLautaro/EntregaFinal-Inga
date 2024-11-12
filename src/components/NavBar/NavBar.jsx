@@ -1,5 +1,5 @@
 import CartWidget from "../CartWidget/CartWidget"
-
+import { Link } from "react-router-dom"
 
 function NavBar() {
     return (
@@ -12,20 +12,19 @@ function NavBar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contactos</a>
+                            <Link className="nav-link" aria-current="page" to="/src/pages/Home.jsx">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Productos</a>
+                            <Link className="nav-link" to="/src/pages/AboutUs.jsx">Nosotros</Link>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Categorias
+                                Marcas
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Celulares</a></li>
-                                <li><a class="dropdown-item" href="#">Tablets</a></li>
-                                <li><a class="dropdown-item" href="#">Auriculares</a></li>
-                                <li><a class="dropdown-item" href="#">Cargadores</a></li>
+                                <li><Link className="dropdown-item" to="/marca/samsung">Samsung</Link></li>
+                                <li><Link className="dropdown-item" to="/marca/motorola">Motorola</Link></li>
+                                <li><Link className="dropdown-item" to="/marca/apple">Apple</Link></li>
                             </ul>
                         </li>
                     </ul>
