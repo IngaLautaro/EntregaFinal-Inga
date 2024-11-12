@@ -22,9 +22,9 @@ function NavBar() {
                                 Marcas
                             </a>
                             <ul class="dropdown-menu">
-                                <li><Link className="dropdown-item" to="/marca/samsung">Samsung</Link></li>
-                                <li><Link className="dropdown-item" to="/marca/motorola">Motorola</Link></li>
-                                <li><Link className="dropdown-item" to="/marca/apple">Apple</Link></li>
+                                <li><Link className="dropdown-item" to="/category/samsung">Samsung</Link></li>
+                                <li><Link className="dropdown-item" to="/category/motorola">Motorola</Link></li>
+                                <li><Link className="dropdown-item" to="/category/apple">Apple</Link></li>
                             </ul>
                         </li>
                     </ul>
