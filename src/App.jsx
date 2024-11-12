@@ -3,10 +3,10 @@ import './App.css'
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import Cart from './pages/Cart'
-import Error from './pages/Error'
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
+
 
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
           <Route path="/" element={<ItemListContainer greetings= {"Mega tienda"}/>} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/Cart" element={<Cart/>} />
-          <Route path="/" element={<Error />} />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
+          <Route path="/detail/:productId" element={<ItemDetailContainer />} />
         </Routes>
         </BrowserRouter>
       )

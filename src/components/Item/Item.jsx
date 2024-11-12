@@ -7,7 +7,7 @@ function Item({product}) {
         <h2 className="card-tittle">{product.name}</h2>
         <p>$ {product.price}</p>
         <p>{product.description}</p>
-        <Link to={'/detail'}>Ver detalle</Link>
+        <Link to={`/detail/${product.id}`}>Ver detalle</Link>
       </div>
     </div>
   )

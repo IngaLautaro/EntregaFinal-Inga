@@ -64,3 +64,10 @@ export const getProductsByCategory = (categoryId) => {
         }, 2500);
     });
 }
+export const getProductByID = (productId) => {
+    return new Promise((resolve) => {
+        setTimeout(() => {
+            resolve(products.find((prod) => prod.id === Number(productId)));
+        }, 2500);
+    });
+};

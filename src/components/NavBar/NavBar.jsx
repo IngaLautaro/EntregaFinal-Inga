@@ -1,6 +1,7 @@
 import CartWidget from "../CartWidget/CartWidget"
 import { Link } from "react-router-dom"
 
+
 function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -12,7 +13,7 @@ function NavBar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <Link className="nav-link" aria-current="page" to="/src/pages/Home.jsx">Home</Link>
+                            <Link className="nav-link" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
                             <Link className="nav-link" to="/src/pages/AboutUs.jsx">Nosotros</Link>
