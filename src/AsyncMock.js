@@ -6,6 +6,7 @@ const products = [
         price: 1100000.00,
         img: "/src/assets/img/iphone-12.png",
         description: "Descripcion de Iphone 12",
+        stock: 20,
     },
     {
         id: 2,
@@ -14,6 +15,7 @@ const products = [
         price: 1200000.00,
         img: "/src/assets/img/iphone-13promax.png",
         description: "Descripcion de Iphone 13 Pro Max",
+        stock: 20,
     },
     {
         id: 3,
@@ -22,6 +24,7 @@ const products = [
         price: 800000.00,
         img: "/src/assets/img/moto-edge40.png",
         description: "Descripcion de Motorola Edge 40",
+        stock: 20,
     },
     {
         id: 4,
@@ -30,6 +33,7 @@ const products = [
         price: 230000.00,
         img: "/src/assets/img/moto-g23.png",
         description: "Descripcion de Motorola G23",
+        stock: 20,
     },
     {
         id: 5,
@@ -38,6 +42,7 @@ const products = [
         price: 450000.00,
         img: "/src/assets/img/samsung-A23.png",
         description: "Descripcion de Samsung A23",
+        stock: 20,
     },
     {
         id: 6,
@@ -46,6 +51,7 @@ const products = [
         price: 350000.00,
         img: "/src/assets/img/samsung-a54.png",
         description: "Descripcion de Samsung A54",
+        stock: 20,
     }
 ]
 
