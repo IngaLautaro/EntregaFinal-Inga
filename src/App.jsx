@@ -16,7 +16,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<ItemListContainer greetings= {"Mega tienda"}/>} />
+          <Route path="/" element={<ItemListContainer greetings= {"Productos"}/>} />
           <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/Cart" element={<Cart/>} />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
