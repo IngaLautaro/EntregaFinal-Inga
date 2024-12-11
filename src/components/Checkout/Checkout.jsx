@@ -5,7 +5,6 @@ import { addDoc, collection, documentId, getDocs, query, where, writeBatch } fro
 
 
 export default function Checkout() {
-  //const [loading, setLoading] = useState(false)
   const [orderCreated, setOrderCreated] = useState(false)
 
   const {cart, totalQuantity, getTotal, clearCart} = useCart()
