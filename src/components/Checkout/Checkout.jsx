@@ -11,7 +11,6 @@ export default function Checkout() {
   const total = getTotal()
 
   const createOrder = async () => {
-    //setLoading(true)
     const objOrder = {
       buyer: {
         firstName: "Adrian",
@@ -74,7 +73,7 @@ export default function Checkout() {
 
   return <>
     <h1>Checkout</h1>
-    {/* formulario de checkout */}
+    {/* <div>{Formulario}</div> */}
     <button className="btn btn-primary" onClick={createOrder}>Generar Orden</button>
   </>;
 }
